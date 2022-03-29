@@ -1,12 +1,16 @@
 import './App.css';
-import Pessoas from './components/pessoas';
+import Evento from './components/Evento'
+import Form from './components/Form'
 
 
 function App() {
-  const url = "https://via.placeholder.com/150"
+  
   return (
   <div className = "App">
-    <Pessoas nome="Thiago" idade="34" profissao="Analista de sistemas" foto={url}/>
+    <h1>Testando Evento</h1>
+    <Evento numero="1"/>
+    <Evento numero="2"/>
+    <Form/>
   </div>
   )
 }
